@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 // MongoDB connection string
-const uri = 'mongodb+srv://ruqaiyyamahreen:2Shaguftha@cluster0.q3cvh.mongodb.net/LoginSystem?retryWrites=true&w=majority&appName=Cluster0';
 const options = {
     socketTimeoutMS: 45000,          // 45 seconds for socket timeout
     connectTimeoutMS: 30000,
